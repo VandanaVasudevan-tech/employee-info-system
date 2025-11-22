@@ -41,13 +41,7 @@ Clicking on an employee shows a full profile:
 - Description  
 
 ---
-project/
-│── main/ # Main Django project folder
-│── Employee/ # Application containing models, views, urls
-│── media/ # Uploaded employee images
-│── templates/ # HTML templates
-│── db.sqlite3 # Database
-│── manage.py
+
 
 ## 🚀 How to Run Locally
 
@@ -90,3 +84,10 @@ Python Developer | Django | Data Science | ML | AWS
 
 ## 🗂 Project Structure
 
+project/
+│── main/ # Main Django project folder
+│── Employee/ # Application containing models, views, urls
+│── media/ # Uploaded employee images
+│── templates/ # HTML templates
+│── db.sqlite3 # Database
+│── manage.py
