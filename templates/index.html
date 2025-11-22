@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded mx-auto text-center">
+         <h1 class="text-success">NovaByte Technologies Pvt Ltd</h1>
+      </div>
+      <div class="row g-0 bg-body-secondary position-relative">
+         <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="{% static 'images/m4.jpg' %}" class="w-100" alt="...">
+         </div>
+         <div class="col-md-6 p-4 ps-md-0">
+            <p><b>Welcome to NovaByte Technologies, a leading-edge software solutions company dedicated to delivering powerful, scalable, and intelligent digital products.
+               We specialize in Python development, Django-based applications, API engineering, cloud solutions, and data science–powered automation.</b>
+            </p>
+            <h5 class="mt-0">Mission</h5>
+            <p>Our mission is simple —
+               To transform ideas into intelligent digital solutions that power success
+            </p>
+            <h5 class="mt-0">Vision</h5>
+            <p>Our vision is clear —
+               To elevate digital experiences and inspire progress through innovation.
+            </p>
+            <a href="{% url 'home' %}" class="stretched-link">Team</a>
+         </div>
+      </div>
+   </body>
+</html>
