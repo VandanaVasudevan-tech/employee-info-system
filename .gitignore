@@ -1,25 +1,73 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# Django / Python
+*.log
+*.pot
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual Environment
-env/
-venv/
-
-# SQLite database
+# Databases
 db.sqlite3
+db.sqlite3-journal
 
-
-
-# Django stuff
-*.log
+# Media (optional – usually ignored)
+media/
 
 # IDE settings
 .idea/
-
+.vscode/
 
 # OS Files
 .DS_Store
 
+# PyInstaller
+*.spec
+
+# Coverage / test
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+sdist/
+lib/
+lib64/
+parts/
+develop-eggs/
+downloads/
+wheels/
+share/python-wheels/
+
+# Environments backup
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# Type checker
+.pyre/
+.pytype/
+
+# Ruff
+.ruff_cache/
