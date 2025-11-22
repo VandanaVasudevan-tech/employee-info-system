@@ -56,8 +56,8 @@ Visit:
 
 - Homepage → `http://127.0.0.1:8000/`
 - Admin panel → `http://127.0.0.1:8000/admin/`
-- Employee list → http://127.0.0.1:8000/employees/home/
-- Employee detail → http://127.0.0.1:8000/employees/id/
+- Employee list → `http://127.0.0.1:8000/employees/home/`
+- Employee detail → `http://127.0.0.1:8000/employees/id/`
 
 ---
 ## 📸 Screenshots 
